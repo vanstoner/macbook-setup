@@ -9,6 +9,6 @@ mkdir -p ~/xl-license
 mkdir -p ~/apps/xebialabs
 
 # Get latest versions of our products
-getXLD
-getXLR
+getXld
+getXlr
 

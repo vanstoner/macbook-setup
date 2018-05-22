@@ -18,6 +18,8 @@ declare -a caskItems=(
 "lastpass"
 "google-backup-and-sync"
 "microsoft-office"
+"hipchat"
+"java8"
 )
 
 declare -a baseItems=(
@@ -27,6 +29,7 @@ declare -a baseItems=(
 "docker-compose"
 )
 
+brew tap caskroom/versions
 
 echo "Installing base items"
 for myFormula in "${baseItems[@]}"

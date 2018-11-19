@@ -16,10 +16,12 @@ declare -a caskItems=(
 "zotero"
 "virtualbox"
 "lastpass"
+"astro"
 "google-backup-and-sync"
 "microsoft-office"
 "hipchat"
 "java8"
+"vagrant"
 )
 
 declare -a baseItems=(
@@ -27,6 +29,8 @@ declare -a baseItems=(
 "httpie"
 "docker-machine"
 "docker-compose"
+"jython"
+"handbrake"
 )
 
 brew tap caskroom/versions
